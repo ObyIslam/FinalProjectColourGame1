@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="241dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="240dp"
+        android:backgroundTint="#2196F3"
+        android:elevation="5dp"
+        android:text="Play Game"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/leaderboardButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="241dp"
+        android:backgroundTint="#00BCD4"
+        android:elevation="5dp"
+        android:text="View Leaderboard"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/materialToolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="296dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="17dp"
+        android:text="Colour Game"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+</RelativeLayout>
